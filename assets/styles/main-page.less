@@ -1,0 +1,225 @@
+@import "fonts";
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bg {
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  height: 60px;
+  border-bottom: 1px solid #000000;
+}
+
+.black {
+  background-color: #000000;
+}
+
+
+
+nav.black{
+  background: #000;
+  transition: 1s;
+  z-index: 10000;
+
+  .logo {
+    color: #5de539;
+    transition: 1s;
+
+  }
+
+  button {
+    background-color: #5de539;
+    transition: 1s;
+
+    &:hover {
+      background-color: #00c036a3;
+    }
+  }
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'rubikregular';
+  color: #ffffff;
+  line-height: 58px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 10000;
+  transition: 1s;
+
+  .logo {
+    font-size: 22px;
+    padding-left: 20px;
+    transition: 1s;
+
+
+    span {
+      font-family: 'rubikbold';
+
+    }
+  }
+
+  #menu {
+    width: 30%;
+    font-size: 14px;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+      li {
+        a {
+          color: #ffffff;
+          padding: 20px 0 20px 0;
+          text-decoration: none;
+          &:hover {
+            border-bottom: 4px solid #5de539;
+            transition: 0.3s;
+          }
+
+
+        }
+      }
+    }
+  }
+
+
+  button {
+    width: 260px;
+    align-self: stretch;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 1s;
+
+
+    &:hover {
+      background-color: #0000008c;
+    }
+  }
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .text {
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'rubiklight';
+    line-height: 55px;
+    padding-left: 136px;
+  }
+
+  .statistics {
+
+
+    .statistics-item {
+      float: left;
+      width: 240px;
+      height: 210px;
+      background-color: #000000;
+      padding: 40px;
+
+
+      img {
+        padding-bottom: 20px;
+
+      }
+
+      div {
+        color: #5de539;
+        font-family: 'rubikmedium';
+        text-transform: uppercase;
+        font-size: 24px;
+        z-index: 1000;
+
+      }
+
+      span {
+        color: #7e7e7e;
+        font-size: 12px;
+        font-family: 'rubikregular';
+        z-index: 1000;
+      }
+    }
+    .item-1 {
+      opacity: 0.5;
+      background-color: #000000;
+      z-index:0;
+    }
+    .item-2 {
+      opacity: 0.4;
+      background-color: #000000;
+      z-index:0;
+
+    }
+    .item-3 {
+      opacity: 0.3;
+      background-color: #000000;
+      z-index:0;
+
+    }
+  }
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  color: #ffffff;
+  background-color: #0069d5;
+  padding-right: 95px;
+
+
+  button {
+    width: 260px;
+    align-self: stretch;
+    font-size: 18px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'rubikmedium';
+    background-color: #005cb9;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0b81f9;
+    }
+  }
+
+
+
+  img {
+    padding-bottom: 7px;
+  }
+  div  {
+    color: #ffffff;
+    font-family: 'rubikregular';
+    font-size: 14px;
+  }
+}
+
+
+

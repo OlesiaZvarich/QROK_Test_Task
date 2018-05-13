@@ -1,0 +1,149 @@
+@import "fonts";
+
+.exchange {
+
+  .exchange-block-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  h3 {
+    color: #1d2021;
+    font-size: 24px;
+    font-family: 'rubikregular';
+    text-align: center;
+    padding: 70px 0 70px 0;
+    background-color: #fdfdfd;
+
+  }
+
+  .exchange-currency {
+    width: 65%;
+
+
+    .exchange-table {
+      display: flex;
+      flex-direction: row;
+      border: 2px solid #eceff1;
+
+
+
+      .currency-digit {
+        width: 100%;
+        color: #1d2021;
+        font-size: 24px;
+        font-family: 'rubikregular';
+        text-align: end;
+
+        span {
+          display: block;
+          width: 100%;
+          border-top: 1px solid #d6d9e3;
+          color: #7e7e7e;
+          font-size: 12px;
+          text-decoration: underline;
+          text-align: start;
+          padding-top: 15px;
+        }
+
+      }
+      .currency {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin:0 0 401px 0 ;
+
+        h5 {
+          color: #1d2021;
+          font-size: 14px;
+          font-family: 'rubikregular';
+        }
+      }
+
+
+      .currency-btc, .currency-usd {
+        color: #0069d5;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'rubikmedium';
+        i {
+          color:#d6d9e3;;
+        }
+      }
+
+
+      .exchange-currency-give, .exchange-currency-get  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #fdfdfd;
+        width: 50%;
+        padding: 80px 86px 100px 140px;
+
+      }
+
+      .exchange-currency-get {
+        background-color: #f7f7f7;
+      }
+    }
+  }
+
+  .work-with {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 35%;
+
+    .services {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 97px 0 96px 0;
+        width: 50%;
+        border:2px solid #eceff1;
+      }
+    }
+  }
+}
+
+
+.change-crypto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eceff1;
+
+
+  .commission {
+    color: #7e7e7e;
+    font-size: 12px;
+    font-family: 'rubikregular';
+    padding: 37px 0 35px 140px;
+
+  }
+
+  button {
+    align-self: stretch;
+    width: 300px;
+    border: none;
+    background-color: #0069d5;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'rubikmedium';
+
+    &:hover {
+      background-color: #0b81f9;
+    }
+
+  }
+}

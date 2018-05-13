@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="build/styles.min.css">
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="node_modules/fullpage.js/dist/jquery.fullpage.min.css">
+    <title>Qrok_Test_Task</title>
+</head>
+<body>
+<div id="fullpage">
+    <div id="section0" class="section" >
+        <div id="works" class=" main-page bg" data-parallax="scroll" data-speed="0.1" data-image-src="assets/img/main-bg.png">
+            <header class="header">
+                <nav>
+                    <div class="logo"><span>Crypto</span>Maker</div>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="#works">How it works</a></li>
+                            <li><a href="#product">Product</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <button>Get VIP Access</button>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="text">Dive with us<br>
+                    to Crypto signals<br>
+                    for successful<br>
+                    trading</div>
+                <div class="statistics">
+                    <div class="statistics-item item-1">
+                        <img src="assets/img/icons/icon-main-page-1.png" alt="img">
+                        <div>1 873 233</div>
+                        <span>happy users</span>
+                    </div>
+                    <div class="statistics-item item-2">
+                        <img src="assets/img/icons/icon-main-page-2.png" alt="img">
+                        <div>321 092</div>
+                        <span>Active traders</span>
+                    </div>
+                    <div class="statistics-item item-3">
+                        <img src="assets/img/icons/icon-main-page-3.png" alt="img">
+                        <div>8 720 BTC</div>
+                        <span>Our profit</span>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-info">
+                <button>Get VIP access</button>
+                <div>
+                    <img src="assets/img/icons/icon-main-page-4.png" alt="img">
+                    <div>Security & safety</div>
+                </div>
+                <div>
+                    <img src="assets/img/icons/icon-main-page-5.png" alt="img">
+                    <div>Best interface ever</div>
+                </div>
+                <div>
+                    <img src="assets/img/icons/icon-main-page-6.png" alt="img">
+                    <div>Low price</div>
+                </div>
+                <div>
+                    <img src="assets/img/icons/icon-main-page-7.png" alt="img">
+                    <div>Professional Comunity</div>
+                </div>
+                <div>
+                    <img src="assets/img/icons/icon-main-page-8.png" alt="img">
+                    <div>Trading tools</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section coin-market highcharts" id="section1">
+            <a id="product"></a>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active">
+                    <a href="#tabHighcharts1" aria-controls="home" role="tab" data-toggle="tab">
+                        <img src="assets/img/icons/icon-bitcoin.png" alt="img">
+                        <span class="currency">
+                            Bitcoin<br>
+                            <span class="currency-usd">8 876 USD</span><br>
+                            <span class="percent">+17.1 %</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#tabHighcharts2" aria-controls="profile" role="tab" data-toggle="tab">
+                        <img src="assets/img/icons/icon-etherium.png" alt="img">
+                        <span class="currency">
+                            Etherium<br>
+                            <span class="currency-usd">876 USD</span><br>
+                            <span class="percent">+0.2 %</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#tabHighcharts3" aria-controls="messages" role="tab" data-toggle="tab">
+                        <img src="assets/img/icons/icon-litecoin.png" alt="img">
+                        <span class="currency">
+                                Litecoin<br>
+                                <span class="currency-usd">117.23 USD</span><br>
+                                <span class="percent">+0.2 %</span>
+                        </span>
+                    </a>
+                </li>
+                <li><a href="#tabHighcharts4" aria-controls="messages" role="tab" data-toggle="tab">
+                        <img src="assets/img/icons/icon-dash.png" alt="img">
+                        <span class="currency">
+                                dash<br>
+                                <span class="currency-usd">23.22 USD</span><br>
+                                <span class="percent red">-0.2 %</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#tabHighcharts5" aria-controls="messages" role="tab" data-toggle="tab">
+                        <img src="assets/img/icons/icon-ripple.png" alt="img">
+                        <span class="currency">
+                            Ripple<br>
+                            <span class="currency-usd">2.32 USD</span><br>
+                            <span class="percent">+0.2 %</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#tabHighcharts6" aria-controls="messages" role="tab" data-toggle="tab">
+                        <img src="assets/img/icons/icon-bitcoincash.png" alt="img">
+                        <span class="currency">
+                            Bitcoincash<br>
+                            <span class="currency-usd">1 876 USD</span><br>
+                            <span class="percent red">-3.9 %</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content tab-cnt">
+                <div role="tabpanel" class="tab-pane active" id="tabHighcharts1">
+                    <div class="titleHighcharts">
+                        <div class="highcharts-currency">
+                            <div>USD/BTC</div>
+                            <div>ETH/BTC</div>
+                            <div>DASH/BTC</div>
+                            <div>XRP/BTC</div>
+                        </div>
+                        <div class="highcharts-period">
+                            <div>1d</div>
+                            <div>1w</div>
+                            <div>1m</div>
+                            <div>YTD</div>
+                            <div>1Y</div>
+                            <div>3Y</div>
+                            <div>5Y</div>
+                        </div>
+                    </div>
+                    <div id="containerHighcharts1"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tabHighcharts2">
+                    <div class="titleHighcharts">
+                        <div class="highcharts-currency">
+                            <div>USD/ETH</div>
+                            <div>ETH/ETH</div>
+                            <div>DASH/ETH</div>
+                            <div>XRP/ETH</div>
+                        </div>
+                        <div class="highcharts-period">
+                            <div>1d</div>
+                            <div>1w</div>
+                            <div>1m</div>
+                            <div>YTD</div>
+                            <div>1Y</div>
+                            <div>3Y</div>
+                            <div>5Y</div>
+                        </div>
+                    </div>
+                    <div id="containerHighcharts2"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tabHighcharts3">
+                    <div class="titleHighcharts">
+                        <div class="highcharts-currency">
+                            <div>USD/LITECOIN</div>
+                            <div>ETH/LITECOIN</div>
+                            <div>DASH/LITECOIN</div>
+                            <div>XRP/LITECOIN</div>
+                        </div>
+                        <div class="highcharts-period">
+                            <div>1d</div>
+                            <div>1w</div>
+                            <div>1m</div>
+                            <div>YTD</div>
+                            <div>1Y</div>
+                            <div>3Y</div>
+                            <div>5Y</div>
+                        </div>
+                    </div>
+                    <div id="containerHighcharts4"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tabHighcharts4">
+                    <div class="titleHighcharts">
+                        <div class="highcharts-currency">
+                            <div>USD/DASH</div>
+                            <div>ETH/DASH</div>
+                            <div>DASH/DASH</div>
+                            <div>XRP/DASH</div>
+                        </div>
+                        <div class="highcharts-period">
+                            <div>1d</div>
+                            <div>1w</div>
+                            <div>1m</div>
+                            <div>YTD</div>
+                            <div>1Y</div>
+                            <div>3Y</div>
+                            <div>5Y</div>
+                        </div>
+                    </div>
+                    <div id="containerHighcharts5"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tabHighcharts5">
+                    <div class="titleHighcharts">
+                        <div class="highcharts-currency">
+                            <div>USD/RIPPLE</div>
+                            <div>ETH/RIPPLE</div>
+                            <div>DASH/RIPPLE</div>
+                            <div>XRP/RIPPLE</div>
+                        </div>
+                        <div class="highcharts-period">
+                            <div>1d</div>
+                            <div>1w</div>
+                            <div>1m</div>
+                            <div>YTD</div>
+                            <div>1Y</div>
+                            <div>3Y</div>
+                            <div>5Y</div>
+                        </div>
+                    </div>
+                    <div id="containerHighcharts6"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tabHighcharts6">
+                    <div class="titleHighcharts">
+                        <div class="highcharts-currency">
+                            <div>USD/Bitcoincash</div>
+                            <div>ETH/Bitcoincash</div>
+                            <div>DASH/Bitcoincash</div>
+                            <div>XRP/Bitcoincash</div>
+                        </div>
+                        <div class="highcharts-period">
+                            <div>1d</div>
+                            <div>1w</div>
+                            <div>1m</div>
+                            <div>YTD</div>
+                            <div>1Y</div>
+                            <div>3Y</div>
+                            <div>5Y</div>
+                        </div>
+                    </div>
+                    <div id="containerHighcharts3"></div>
+                </div>
+            </div>
+        <div class="statistics-in-percent">
+            <div class="period-percent">
+                <div>
+                    + 17.1%<br>
+                    <span>Day changes</span>
+                </div>
+                <div>
+                    + 17.1%<br>
+                    <span>Week changes</span>
+                </div>
+                <div class="red">
+                    - 0.11%<br>
+                    <span>Month changes</span>
+                </div>
+                <div>
+                    + 82.1%<br>
+                    <span>Year changes</span>
+                </div>
+            </div>
+            <div class="trade-volume">
+                8 720 BTC <br>
+                <span>Trade volume (24h)</span>
+            </div>
+            <button>Buy now</button>
+        </div>
+    </div>
+    <div class="section advert" id="section2">
+        <a id="reviews"></a>
+        <div class="advert-bg">
+            <div class="beauty-blockchain">
+                <div class="beauty-blockchain-text">
+                    <h3>
+                        Blockchain <br>
+                        to beauty industry</h3>
+                    <div><a href="#">PreSale  offer to VIP users</a></div>
+                </div>
+            </div>
+            <div class="wrapper-bot-platform-video">
+                <div class="bot-platform-video" >
+                    <div>
+                        <h3>BOT platform for developers </h3>
+                        <div class="how-install"><a href="#">How to install?</a></div>
+                    </div>
+                    <div class="video">
+                        <div class="video-icon">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </div>
+                        <div class="watch-video">
+                            Watch video <br>
+                            <span>
+                                About BOT platform <br>
+                                for developers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payments">
+            <div class="about-ripple">
+                <div class="about-ripple-logo">
+                    <img src="assets/img/log-ripple.png" alt="img">
+                </div>
+                <div class="about-ripple-text">
+                    <h3>XRP The Digital Asset <br>
+                        for Payments</h3>
+                    <p>
+                        It’s the fastest and most scalable digital asset,
+                        enabling real-time global payments
+                        anywhere in the world.
+                    </p>
+                    <span>Learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                </div>
+            </div>
+            <div class="about-payment">
+                <div class="about-payment-text">
+                    <h3>PAYMENT PROVIDERS</h3>
+                    <p>Payment Providers use XRP to expand reach into new markets, lower foreign exchange costs and provide faster payment settlement.</p>
+                    <span>Learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="img-payment">
+                    <img src="assets/img/payment.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section exchange" id="section3">
+        <a id="pricing"></a>
+        <section class="exchange-block-wrapper">
+            <div class="exchange-currency">
+                <h3>Exchange your cryptocurrency</h3>
+                <div class="exchange-table">
+                    <div class="exchange-currency-give">
+                        <div class="currency">
+                            <h5>You give</h5>
+                            <div class="currency-btc">
+                                BTC
+                                <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="currency-digit">
+                            1<br>
+                            <span>Balance: 123 022 321 USD</span>
+                        </div>
+                    </div>
+                    <div class="exchange-currency-get">
+                        <div class="currency">
+                            <h5>You get</h5>
+                            <div class="currency-usd">
+                                USD
+                                <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="currency-digit">
+                            8 462 <br>
+                            <span>Available balance: 27.03232132 BTC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change-crypto">
+                    <div class="commission">
+                        Commision (0.5%) = 0.000021 BTC <br>
+                        1 BTC = 8.462 USD
+                    </div>
+                    <button>Change crypto now</button>
+                </div>
+            </div>
+            <div class="work-with">
+                <h3>Work with awesome servcies</h3>
+                <div class="services">
+                    <div><img src="assets/img/logo-services-1.png" alt="img"></div>
+                    <div><img src="assets/img/logo-services-2.png" alt="img"></div>
+                    <div><img src="assets/img/logo-services-3.png" alt="img"></div>
+                    <div><img src="assets/img/logo-services-4.png" alt="img"></div>
+                    <div><img src="assets/img/logo-services-5.png" alt="img"></div>
+                    <div><img src="assets/img/logo-services-6.png" alt="img"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="section" id="section4">
+        <div class="footer-wrapper">
+            <div class="footer-items">
+                <div>
+                    <h5>Tools</h5>
+                    <ul>
+                        <li><a href="#">Telegram Bot</a></li>
+                        <li><a href="#">Exchange 24/7</a></li>
+                        <li><a href="#">Analytic reports</a></li>
+                        <li><a href="#">Private Trader</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Source</h5>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">BOT API</a></li>
+                        <li><a href="#">Developers Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Info</h5>
+                    <ul>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Exchange rules</a></li>
+                        <li><a href="#">Investment sevice</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                YouTube
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-other">
+                <div class="language">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <div class="select-language">
+                        English
+                        <span class="arrow-down">&#9660;</span>
+                    </div>
+                </div>
+                <div class="other">
+                    <div class="term"><a href="#">Terms of use</a></div>
+                    <div class="agreement"><a href="#">User Agreement</a></div>
+                    <div class="copyright">© 2017—2018 CryptoMaker All Rights Reserved</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+<script src="assets/dist/wow.js"></script>
+<script src="build/scripts.min.js"></script>
+<script src="node_modules/jquery-parallax.js/parallax.min.js"></script>
+<script src="node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
+<script src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
+<script src="node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
+</html>

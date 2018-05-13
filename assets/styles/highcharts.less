@@ -1,0 +1,286 @@
+@import "fonts";
+
+.coin-market {
+  height:100vh;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      width: 100%;
+      border-right: 1px solid #1d2021;
+
+      a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+       &:hover {
+          background-color: #1d2021;
+        }
+
+        .currency {
+          color: #7e7e7e;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-family: 'rubikregular';
+
+        }
+
+        .currency-usd {
+          color: #7e7e7e;
+          font-size: 24px;
+          text-transform: uppercase;
+          font-family: 'rubikmedium';
+
+        }
+
+        .percent.red {
+          color: #ef3625;
+        }
+
+        .percent {
+          color: #00ad30;
+          font-size: 14px;
+          font-family: 'rubikregular';
+
+        }
+
+      }
+    }
+  }
+}
+
+
+
+.nav>li>a {
+  padding: 60px 40px;
+  position: static;
+}
+
+.nav>li> {
+  position: static;
+}
+.nav-tabs>li>a {
+  margin-right: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: #010101;
+}
+
+.nav-tabs>li {
+  margin-right: 0;
+  border-radius: 0;
+  border-right: 1px solid #1d2021;
+  border-bottom: 1px solid #1d2021;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: #1d2021;
+  border: 0;
+
+  .currency-usd {
+    color: #eceff1;
+  }
+}
+
+.tab-content>.active {
+  background-color: #010101;
+  height: 60vh;
+}
+
+.nav-tabs {
+  height: 20vh;
+}
+
+
+.highcharts-background {
+  fill: transparent;
+}
+
+.highcharts-button-box {
+  display: none;
+}
+
+#containerHighcharts1 {
+
+  .highcharts-color-0 {
+    fill: rgba(143, 215, 212, 0.2);
+    stroke: #0069d5;;
+  }
+}
+
+.titleHighcharts {
+  margin: 0 35px;
+}
+
+.highcharts-axis-labels {
+  fill: #444444;
+  font-size: 12px;
+  font-family: 'rubikregular';
+
+
+}
+
+.titleHighcharts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #7e7e7e;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'rubikregular';
+  padding: 50px 0 23px 0;
+}
+
+.highcharts-currency {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+
+  div {
+    cursor: pointer;
+
+    &:hover {
+      color: #ffffff;
+      font-family: 'rubikmedium';
+
+    }
+  }
+
+}
+
+.highcharts-period {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+ div {
+   cursor: pointer;
+   &:hover {
+     color: #ffffff;
+     font-family: 'rubikmedium';
+
+   }
+ }
+
+}
+
+
+
+.statistics-in-percent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1d2021;
+  height: 20vh;
+
+  .period-percent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:45%;
+
+    div {
+      color: #5de539;
+      font-family: 'rubikregular';
+      font-size: 24px;
+
+      div&.red {
+        color: red;
+      }
+      span {
+        color: #444444;
+        font-family: 'rubikregular';
+        font-size: 12px;
+      }
+    }
+
+  }
+
+  .trade-volume {
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'rubikmedium';
+    align-self: center;
+    span {
+      color: #444444;
+      font-family: 'rubikregular';
+      font-size: 12px;
+    }
+
+
+  }
+  button {
+    align-items: stretch;
+    background-color: #00c036;
+    border:none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'rubikmedium';
+    width: 240px;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #00c036a3;
+    }
+
+  }
+}
+
+
+.highcharts-button-symbol {
+  display: none;
+}
+
+
+.highcharts-credits {
+  display: none;
+}
+
+.highcharts-xaxis-grid .highcharts-grid-line {
+  stroke-width: 1;
+}
+
+.highcharts-title {
+  display: none;
+}
+
+.highcharts-axis-title {
+  display: none;
+}
+
+.highcharts-tooltip-box {
+  stroke-width: 1px;
+  fill: #3e3e3e;
+  fill-opacity: 0.5;
+}
+
+.highcharts-tooltip text {
+  fill: #ffffff;
+}
+
+
+.highcharts-legend-item  {
+  display: none;
+}
+
+
+
+
+#containerHighcharts2 {
+
+  .highcharts-color-0 {
+    fill: rgba(120, 20, 80, 0.3);
+    stroke: #e97056;
+  }
+}
+
+
+
